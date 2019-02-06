@@ -21,7 +21,13 @@ exports.greetingJapanese = function() {
   console.log("Konichiwa");
 }
 
-exports = "Hola"
+exports.greetingSpanish = function() {
+  console.log("Hola");
+}
+
+exports.greetingIcelandic = function() {
+  console.log("Halló");
+}
 
 //using module.exports causes an error. exports is a reference to module.exports and connot reassign the object module.exports.
 //you either use module.exports or exports within your Node app.
